@@ -1,0 +1,82 @@
+/* colours
+https://coolors.co/ffcab1-214e34-86cd82-63372c-f7eede
+https://coolors.co/ffe4ad-e2973c-d26b37-ad2e24-685044
+https://coolors.co/ffa69e-f4d06f-b1ede8-364981-cbdc7f
+*/
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+	width: 900px;
+	height: 750px;
+	display: grid;
+	grid-template-rows: 73px auto 50px;
+}
+
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px;
+	grid-gap: 12px;
+	
+}
+
+#menu > input{
+	background-color: #FFC7AD;
+	color: #214E34;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 23px;
+	border-radius: 10px;
+}
+
+#menu > input:hover{
+	background-color: #d8f3dc;
+	color: 000000;
+}
+
+#themes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px;
+	grid-gap: 12px;
+}
+
+#themes > input{
+	background-color: #90D08A;
+	font-family: Trebuchet MS;
+	color: #214E34;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+#themes > input:hover{
+	background-color: #d8f3dc;
+	color: 000000;
+}
+
+
+section{
+	border: 3px solid #214E34;
+	background-color: #fff6e3;
+	font-family: Verdana;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+img{
+	width: 800px;
+	
+}
+
+
